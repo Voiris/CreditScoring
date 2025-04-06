@@ -86,7 +86,7 @@ def apply_job(foreign_worker):
         return 3
     elif foreign_worker == 'unskilled resident':
         return 2
-    elif foreign_worker == 'mangement self-employed':
+    elif foreign_worker == 'management self-employed':
         return 1
     elif foreign_worker == 'unemployed non-resident':
         return 0
